@@ -55,8 +55,7 @@ const AmountComponent = ({ formValues, updateInvestmentData }: Props) => {
             <form
               style={{
                 display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
+                flexDirection: "column",
                 gap: "16px",
               }}
               onSubmit={function submitAmountForm(e) {
